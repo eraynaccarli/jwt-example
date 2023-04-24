@@ -34,7 +34,7 @@ public class JwtService {
     }
 
     private Key getKey(){
-        byte[] key = Decoders.BASE64.decode(SECRET_KEY);
+        byte[] key = Decoders.BASE64.decode(SECRET_KEY); // benzersiz bir anahtar vermesi icin base64 ile decode ettik
         return Keys.hmacShaKeyFor(key);
     }
 
