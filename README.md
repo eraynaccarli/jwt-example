@@ -1,7 +1,18 @@
-# jwt-example
+# JwT Example
 
-![image](https://user-images.githubusercontent.com/69572868/233927162-4844d5de-1a52-42fa-bf5e-a0c6ccd33c5f.png)
+  ![image](https://user-images.githubusercontent.com/69572868/233927162-4844d5de-1a52-42fa-bf5e-a0c6ccd33c5f.png)
 
+
+# Technologies
+    Java 17
+    Spring Boot 3.0
+    Spring Data JPA
+    H2 Database
+    Spring Security
+    JWT
+    Restful API
+    Maven
+   
 
 # SAVE REQUEST (POST)
 
