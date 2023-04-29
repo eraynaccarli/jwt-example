@@ -45,7 +45,7 @@ public class JwtService {
         return (email.equals(userDetails.getUsername()) && !exportToken(jwt,Claims::getExpiration).before(new Date()));
     }
 
-    public String generateToken(User user) {
+    public String generateToken(UserDetails user) {
         return Jwts.builder()
                 .setClaims(new HashMap<>())
                 .setSubject(user.getUsername())
